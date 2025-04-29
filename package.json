@@ -9,7 +9,9 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"build:gh": "cross-env BASE_PATH='/konveksi-glam-stitch' npm run build"
+		
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
