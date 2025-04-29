@@ -191,9 +191,14 @@
   
       <!-- Kanan: Gambar -->
       <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0 flex items-center justify-center h-full">
-        <img class="w-full max-w-lg bg-gray-900 object-cover rounded-2xl" src="assets/image/logo glint.png" alt="Penjahit yang sedang bekerja pada pakaian">
+        <img
+          class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-lg mt-10 bg-gray-900 object-contain rounded-2xl"
+          src="assets/image/logo glint.png"
+          alt="logo glam stitch"
+        >
       </div>
-  
+      
+      
     </div>
   </div>
   <!--end hero sections-->
