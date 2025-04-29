@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    require('@tailwindcss/postcss')(),  // Pastikan menggunakan package @tailwindcss/postcss
+    require('@tailwindcss/postcss')(),  
     require('autoprefixer'),
   ],
 };
