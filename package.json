@@ -10,8 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"build:gh": "cross-env BASE_PATH='/konveksi-glam-stitch' npm run build"
-		
+		"build:gh": "cross-env BASE_PATH='/project-sveltekit' npm run build"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
@@ -23,6 +22,7 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"@tailwindcss/vite": "^4.0.0",
 		"autoprefixer": "^10.4.21",
+		"cross-env": "^7.0.3",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
