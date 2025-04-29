@@ -8,18 +8,18 @@
           <nav class="flex items-center justify-between px-4 py-2">
             
             <!-- Logo -->
-            <a href="/" class="flex items-center -m-1.5 p-1.5">
+            <a href="/project-sveltekit/" class="flex items-center -m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
               <img class="h-14 w-14 object-contain" src="assets/image/logo glint.png" alt="Your Company Logo">
             </a>
       
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex lg:gap-x-8">
-              <a href="/" class="text-lg font-semibold text-gray-900">Home</a>
+              <a href="/project-sveltekit/" class="text-lg font-semibold text-gray-900">Home</a>
       
               <!-- Products Dropdown -->
               <div class="relative group">
-                <a href="/product" class="inline-flex items-center text-lg font-semibold text-gray-900 px-3 cursor-pointer group-hover:text-blue-500 transition">
+                <a href="/project-sveltekit/product" class="inline-flex items-center text-lg font-semibold text-gray-900 px-3 cursor-pointer group-hover:text-blue-500 transition">
                   <span>Products</span>
                   <svg class="ml-2 h-5 w-5 text-gray-900 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -27,18 +27,18 @@
                 </a>
                 <div class="absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                   <ul class="py-2 text-lg text-gray-700">
-                    <li><a href="/tshirts" class="block px-6 py-3 hover:bg-gray-100">T-shirt</a></li>
-                    <li><a href="/jacket" class="block px-6 py-3 hover:bg-gray-100">Jacket</a></li>
-                    <li><a href="/kemeja" class="block px-6 py-3 hover:bg-gray-100">Shirt</a></li>
+                    <li><a href="/project-sveltekit/tshirts" class="block px-6 py-3 hover:bg-gray-100">T-shirt</a></li>
+                    <li><a href="/project-sveltekit/jacket" class="block px-6 py-3 hover:bg-gray-100">Jacket</a></li>
+                    <li><a href="/project-sveltekit/kemeja" class="block px-6 py-3 hover:bg-gray-100">Shirt</a></li>
                   </ul>
                 </div>
               </div>
       
-              <a href="/features" class="text-lg font-semibold text-gray-900">Services</a>
+              <a href="/project-sveltekit/features" class="text-lg font-semibold text-gray-900">Services</a>
       
               <!-- Discover Us Dropdown -->
               <div class="relative group">
-                <a href="#" class="inline-flex items-center text-lg font-semibold text-blue-400 px-3 cursor-pointer group-hover:text-blue-500 transition">
+                <a href="/project-sveltekit#" class="inline-flex items-center text-lg font-semibold text-blue-400 px-3 cursor-pointer group-hover:text-blue-500 transition">
                   <span>Discover Us</span>
                   <svg class="ml-2 h-5 w-5 text-gray-900 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -46,10 +46,10 @@
                 </a>
                 <div class="absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                   <ul class="py-2 text-lg text-gray-700">
-                    <li><a href="/company" class="block px-6 py-3 hover:bg-gray-100">About Us</a></li>
-                    <li><a href="/blog" class="block px-6 py-3 hover:bg-gray-100">Blog</a></li>
-                    <li><a href="/contact-us" class="block px-6 py-3 hover:bg-gray-100">Contact Us</a></li>
-                    <li><a href="/lokasi" class="block px-6 py-3 hover:bg-gray-100">Store Location</a></li>
+                    <li><a href="/project-sveltekit/company" class="block px-6 py-3 hover:bg-gray-100">About Us</a></li>
+                    <li><a href="/project-sveltekit/blog" class="block px-6 py-3 hover:bg-gray-100">Blog</a></li>
+                    <li><a href="/project-sveltekit/contact-us" class="block px-6 py-3 hover:bg-gray-100">Contact Us</a></li>
+                    <li><a href="/project-sveltekit/lokasi" class="block px-6 py-3 hover:bg-gray-100">Store Location</a></li>
                   </ul>
                 </div>
               </div>
@@ -71,7 +71,7 @@
             <!-- Mobile Menu -->
             <div class="fixed top-0 left-0 right-0 z-50 w-full bg-white/90 backdrop-blur-lg shadow-lg rounded-b-2xl px-6 py-5 transform -translate-y-full peer-checked:translate-y-0 transition-transform duration-300 ease-in-out hidden peer-checked:flex flex-col space-y-4 lg:hidden">
               <div class="flex items-center justify-between">
-                <a href="/">
+                <a href="/project-sveltekit/">
                   <img src="assets/image/logo glint.png" alt="Logo" class="h-10 w-auto">
                 </a>
                 <label for="menu-toggle" class="p-2 rounded-md text-gray-700 cursor-pointer">
@@ -82,13 +82,13 @@
               </div>
       
               <nav class="flex flex-col items-start space-y-1 pt-2 text-lg">
-                <a href="/" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Home</a>
+                <a href="/project-sveltekit/" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Home</a>
       
                 <!-- Mobile Products Dropdown -->
                 <div class="relative w-full">
                   <input type="checkbox" id="dropdown-toggle" class="peer hidden" />
                   <div class="flex items-center -mx-2 rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 justify-between cursor-pointer">
-                    <a href="/product" class="flex-grow">Products</a>
+                    <a href="/project-sveltekit/product" class="flex-grow">Products</a>
                     <label for="dropdown-toggle">
                       <svg class="h-4 w-4 text-gray-800 transition-transform peer-checked:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
@@ -98,20 +98,20 @@
                   </div>
                   <div class="absolute left-0 mt-1 w-48 bg-white shadow-md rounded-md z-50 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-200 ease-in-out">
                     <ul class="py-1 text-sm text-gray-700">
-                      <li><a href="/tshirts" class="block px-4 py-1.5 hover:bg-gray-100">T-Shirt</a></li>
-                      <li><a href="/jacket" class="block px-4 py-1.5 hover:bg-gray-100">Jacket</a></li>
-                      <li><a href="/kemeja" class="block px-4 py-1.5 hover:bg-gray-100">Shirt</a></li>
+                      <li><a href="/project-sveltekit/tshirts" class="block px-4 py-1.5 hover:bg-gray-100">T-Shirt</a></li>
+                      <li><a href="/project-sveltekit/jacket" class="block px-4 py-1.5 hover:bg-gray-100">Jacket</a></li>
+                      <li><a href="/project-sveltekit/kemeja" class="block px-4 py-1.5 hover:bg-gray-100">Shirt</a></li>
                     </ul>
                   </div>
                 </div>
       
-                <a href="/features" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Services</a>
+                <a href="/project-sveltekit/features" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Services</a>
       
                 <!-- Mobile Discover Us Dropdown -->
                 <div class="relative w-full">
                   <input type="checkbox" id="dropdown" class="peer hidden" />
                   <div class="flex items-center -mx-2 rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 justify-between cursor-pointer">
-                    <a href="#" class="flex-grow">Discover Us</a>
+                    <a href="/project-sveltekit#" class="flex-grow">Discover Us</a>
                     <label for="dropdown">
                       <svg class="h-4 w-4 text-gray-800 transition-transform peer-checked:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
@@ -121,10 +121,10 @@
                   </div>
                   <div class="absolute left-0 mt-1 w-48 bg-white shadow-md rounded-md z-50 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-200 ease-in-out">
                     <ul class="py-1 text-sm text-gray-700">
-                      <li><a href="/company" class="block px-4 py-1.5 hover:bg-gray-100">About Us</a></li>
-                      <li><a href="/blog" class="block px-4 py-1.5 hover:bg-gray-100">Blog</a></li>
-                      <li><a href="/contact-us" class="block px-4 py-1.5 hover:bg-gray-100">Contact Us</a></li>
-                      <li><a href="/lokasi" class="block px-4 py-1.5 hover:bg-gray-100">Store Location</a></li>
+                      <li><a href="/project-sveltekit/company" class="block px-4 py-1.5 hover:bg-gray-100">About Us</a></li>
+                      <li><a href="/project-sveltekit/blog" class="block px-4 py-1.5 hover:bg-gray-100">Blog</a></li>
+                      <li><a href="/project-sveltekit/contact-us" class="block px-4 py-1.5 hover:bg-gray-100">Contact Us</a></li>
+                      <li><a href="/project-sveltekit/lokasi" class="block px-4 py-1.5 hover:bg-gray-100">Store Location</a></li>
                     </ul>
                   </div>
                 </div>
@@ -141,7 +141,7 @@
               <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                   Lokasi Toko Glam Stitch
-                  <a href="#" class="font-semibold text-white">
+                  <a href="/project-sveltekit#" class="font-semibold text-white">
                     <span class="absolute inset-0" aria-hidden="true"></span>Lihat di Maps <span aria-hidden="true">&rarr;</span>
                   </a>
                 </div>
@@ -154,8 +154,8 @@
                   Kami menyediakan layanan produksi pakaian yang terpercaya dan profesional untuk membantu pertumbuhan bisnis Anda — dengan kualitas tinggi, proses cepat, dan harga bersaing.
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                  <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">Mulai Sekarang</a>
-                  <a href="#" class="text-sm font-semibold text-white">Jelajahi Lebih Lanjut <span aria-hidden="true">→</span></a>
+                  <a href="/project-sveltekit#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">Mulai Sekarang</a>
+                  <a href="/project-sveltekit#" class="text-sm font-semibold text-white">Jelajahi Lebih Lanjut <span aria-hidden="true">→</span></a>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@
           <div class="mt-16 flex justify-center">
             <p class="relative rounded-full bg-gray-800 px-4 py-1.5 text-sm/6 text-gray-300">
               <span class="hidden md:inline">Konveksi Glam Stitch dipercaya oleh banyak brand ternama.</span>
-              <a href="#" class="font-semibold text-white"><span class="absolute inset-0" aria-hidden="true"></span> Lihat cerita pelanggan kami <span aria-hidden="true">&rarr;</span></a>
+              <a href="/project-sveltekit#" class="font-semibold text-white"><span class="absolute inset-0" aria-hidden="true"></span> Lihat cerita pelanggan kami <span aria-hidden="true">&rarr;</span></a>
             </p>
           </div>
         </div>
@@ -263,13 +263,13 @@
                 Glam Stitch adalah mitra konveksi terpercaya untuk kebutuhan baju custom, seragam, dan merchandise Anda. Kualitas terbaik, harga bersaing.
               </p>
               <div class="flex space-x-6">
-                <a href="#" class="text-gray-500 hover:text-gray-400">
+                <a href="/project-sveltekit#" class="text-gray-500 hover:text-gray-400">
                   <span class="sr-only">Facebook</span>
                   <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M22 12a10 10 0 10-11.6 9.87v-6.99H8.1v-2.88h2.3V9.41c0-2.28 1.35-3.55 3.42-3.55.99 0 2.03.18 2.03.18v2.24h-1.14c-1.12 0-1.47.7-1.47 1.42v1.71h2.5l-.4 2.88h-2.1v6.99A10 10 0 0022 12z"/>
                   </svg>
                 </a>
-                <a href="#" class="text-gray-500 hover:text-gray-400">
+                <a href="/project-sveltekit#" class="text-gray-500 hover:text-gray-400">
                   <span class="sr-only">Instagram</span>
                   <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-1a1 1 0 100 2 1 1 0 000-2z"/>
@@ -283,25 +283,25 @@
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Produk & Layanan</h3>
                 <ul role="list" class="mt-6 space-y-4">
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Katalog Produk</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Jasa Sablon & Bordir</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Custom Desain Baju</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Katalog Produk</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Jasa Sablon & Bordir</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Custom Desain Baju</a></li>
                 </ul>
               </div>
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Bantuan</h3>
                 <ul role="list" class="mt-6 space-y-4">
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Cara Pemesanan</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">FAQ</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Hubungi Kami</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Cara Pemesanan</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">FAQ</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Hubungi Kami</a></li>
                 </ul>
               </div>
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Tentang Kami</h3>
                 <ul role="list" class="mt-6 space-y-4">
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Profil Perusahaan</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Testimoni Pelanggan</a></li>
-                  <li><a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Karir</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Profil Perusahaan</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Testimoni Pelanggan</a></li>
+                  <li><a href="/project-sveltekit#" class="text-sm leading-6 text-gray-300 hover:text-white">Karir</a></li>
                 </ul>
               </div>
             </div>

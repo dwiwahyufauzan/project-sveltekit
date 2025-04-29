@@ -8,18 +8,18 @@
     <header class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-screen-lg bg-white shadow-sm border border-gray-300 rounded-full px-4">
       <nav class="flex items-center justify-between px-4 py-2">
         <!-- Logo -->
-        <a href="/" class="flex items-center -m-1.5 p-1.5">
+        <a href="/project-sveltekit/" class="flex items-center -m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
           <img src="assets/image/logo glint.png" alt="Your Company Logo" class="h-14 w-14 object-contain">
         </a>
   
         <!-- Desktop Menu -->
         <div class="hidden lg:flex lg:gap-x-8">
-          <a href="/" class="text-lg font-semibold text-gray-900">Home</a>
+          <a href="/project-sveltekit/" class="text-lg font-semibold text-gray-900">Home</a>
   
           <!-- Products Dropdown (Desktop) -->
           <div class="relative group">
-            <a href="/product" class="inline-flex items-center text-lg font-semibold text-gray-900 px-3 cursor-pointer group-hover:text-blue-500 transition">
+            <a href="/project-sveltekit/product" class="inline-flex items-center text-lg font-semibold text-gray-900 px-3 cursor-pointer group-hover:text-blue-500 transition">
               <span>Products</span>
               <svg class="ml-2 h-5 w-5 text-gray-900 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -27,18 +27,18 @@
             </a>
             <div class="absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
               <ul class="py-2 text-lg text-gray-700">
-                <li><a href="/tshirts" class="block px-6 py-3 hover:bg-gray-100">T-shirt</a></li>
-                <li><a href="/jacket" class="block px-6 py-3 hover:bg-gray-100">Jacket</a></li>
-                <li><a href="/kemeja" class="block px-6 py-3 hover:bg-gray-100">Shirt</a></li>
+                <li><a href="/project-sveltekit/tshirts" class="block px-6 py-3 hover:bg-gray-100">T-shirt</a></li>
+                <li><a href="/project-sveltekit/jacket" class="block px-6 py-3 hover:bg-gray-100">Jacket</a></li>
+                <li><a href="/project-sveltekit/kemeja" class="block px-6 py-3 hover:bg-gray-100">Shirt</a></li>
               </ul>
             </div>
           </div>
   
-          <a href="/features" class="text-lg font-semibold text-gray-900">Services</a>
+          <a href="/project-sveltekit/features" class="text-lg font-semibold text-gray-900">Services</a>
   
           <!-- Discover Us Dropdown (Desktop) -->
           <div class="relative group">
-            <a href="/#" class="inline-flex items-center text-lg font-semibold text-blue-400 px-3 cursor-pointer group-hover:text-blue-500 transition">
+            <a href="/project-sveltekit/#" class="inline-flex items-center text-lg font-semibold text-blue-400 px-3 cursor-pointer group-hover:text-blue-500 transition">
               <span>Discover Us</span>
               <svg class="ml-2 h-5 w-5 text-gray-900 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -46,10 +46,10 @@
             </a>
             <div class="absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
               <ul class="py-2 text-lg text-gray-700">
-                <li><a href="/company" class="block px-6 py-3 hover:bg-gray-100">About Us</a></li>
-                <li><a href="/blog" class="block px-6 py-3 hover:bg-gray-100">Blog</a></li>
-                <li><a href="/contact-us" class="block px-6 py-3 hover:bg-gray-100">Contact Us</a></li>
-                <li><a href="/lokasi" class="block px-6 py-3 hover:bg-gray-100">Store Location</a></li>
+                <li><a href="/project-sveltekit/company" class="block px-6 py-3 hover:bg-gray-100">About Us</a></li>
+                <li><a href="/project-sveltekit/blog" class="block px-6 py-3 hover:bg-gray-100">Blog</a></li>
+                <li><a href="/project-sveltekit/contact-us" class="block px-6 py-3 hover:bg-gray-100">Contact Us</a></li>
+                <li><a href="/project-sveltekit/lokasi" class="block px-6 py-3 hover:bg-gray-100">Store Location</a></li>
               </ul>
             </div>
           </div>
@@ -73,7 +73,7 @@
         <!-- Mobile Menu -->
         <div class="fixed top-0 left-0 right-0 z-50 w-full bg-white/90 backdrop-blur-lg shadow-lg rounded-b-2xl px-6 py-5 transform -translate-y-full peer-checked:translate-y-0 transition-transform duration-300 ease-in-out hidden peer-checked:flex flex-col space-y-4 lg:hidden">
           <div class="flex items-center justify-between">
-            <a href="/"><img src="assets/image/logo glint.png" alt="Logo" class="h-10 w-auto"></a>
+            <a href="/project-sveltekit/"><img src="assets/image/logo glint.png" alt="Logo" class="h-10 w-auto"></a>
             <label for="menu-toggle" class="p-2 rounded-md text-gray-700 cursor-pointer">
               <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -82,13 +82,13 @@
           </div>
   
           <nav class="flex flex-col items-start space-y-1 pt-2 text-lg">
-            <a href="/" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Home</a>
+            <a href="/project-sveltekit/" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Home</a>
   
             <!-- Products Mobile Dropdown -->
             <div class="relative w-full">
               <input type="checkbox" id="dropdown-toggle" class="peer hidden" />
               <div class="flex items-center -mx-2 rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 justify-between cursor-pointer">
-                <a href="/product" class="flex-grow">Products</a>
+                <a href="/project-sveltekit/product" class="flex-grow">Products</a>
                 <label for="dropdown-toggle">
                   <svg class="h-4 w-4 text-gray-800 transition-transform peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -97,20 +97,20 @@
               </div>
               <div class="absolute left-0 mt-1 w-48 bg-white shadow-md rounded-md z-50 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-200 ease-in-out">
                 <ul class="py-1 text-sm text-gray-700">
-                  <li><a href="/tshirts" class="block px-4 py-1.5 hover:bg-gray-100">T-Shirt</a></li>
-                  <li><a href="/jacket" class="block px-4 py-1.5 hover:bg-gray-100">Jacket</a></li>
-                  <li><a href="/kemeja" class="block px-4 py-1.5 hover:bg-gray-100">Shirt</a></li>
+                  <li><a href="/project-sveltekit/tshirts" class="block px-4 py-1.5 hover:bg-gray-100">T-Shirt</a></li>
+                  <li><a href="/project-sveltekit/jacket" class="block px-4 py-1.5 hover:bg-gray-100">Jacket</a></li>
+                  <li><a href="/project-sveltekit/kemeja" class="block px-4 py-1.5 hover:bg-gray-100">Shirt</a></li>
                 </ul>
               </div>
             </div>
   
-            <a href="/features" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Services</a>
+            <a href="/project-sveltekit/features" class="-mx-2 block rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 transition">Services</a>
   
             <!-- Discover Us Mobile Dropdown -->
             <div class="relative w-full">
               <input type="checkbox" id="dropdown" class="peer hidden" />
               <div class="flex items-center -mx-2 rounded-md px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-50 justify-between cursor-pointer">
-                <a href="/#" class="flex-grow">Discover Us</a>
+                <a href="/project-sveltekit/#" class="flex-grow">Discover Us</a>
                 <label for="dropdown">
                   <svg class="h-4 w-4 text-gray-800 transition-transform peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -119,10 +119,10 @@
               </div>
               <div class="absolute left-0 mt-1 w-48 bg-white shadow-md rounded-md z-50 opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-200 ease-in-out">
                 <ul class="py-1 text-sm text-gray-700">
-                  <li><a href="/company" class="block px-4 py-1.5 hover:bg-gray-100">About Us</a></li>
-                  <li><a href="/blog" class="block px-4 py-1.5 hover:bg-gray-100">Blog</a></li>
-                  <li><a href="/contact-us" class="block px-4 py-1.5 hover:bg-gray-100">Contact Us</a></li>
-                  <li><a href="/lokasi" class="block px-4 py-1.5 hover:bg-gray-100">Store Location</a></li>
+                  <li><a href="/project-sveltekit/company" class="block px-4 py-1.5 hover:bg-gray-100">About Us</a></li>
+                  <li><a href="/project-sveltekit/blog" class="block px-4 py-1.5 hover:bg-gray-100">Blog</a></li>
+                  <li><a href="/project-sveltekit/contact-us" class="block px-4 py-1.5 hover:bg-gray-100">Contact Us</a></li>
+                  <li><a href="/project-sveltekit/lokasi" class="block px-4 py-1.5 hover:bg-gray-100">Store Location</a></li>
                 </ul>
               </div>
             </div>
