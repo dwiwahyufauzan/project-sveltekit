@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/project-sveltekit' # Nama repo kamu!
+         BASE_PATH: '/project-sveltekit'
         run: npm run build
 
       - name: Upload artifact
