@@ -1,10 +1,9 @@
 import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
     adapter: adapter({
-      fallback: '404.html'
+      fallback: '404.html' // Supaya semua route dilayani
     }),
     paths: {
       base: process.env.BASE_PATH || ''
