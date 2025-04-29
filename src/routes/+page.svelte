@@ -244,7 +244,7 @@
         <div class="flex flex-col justify-center items-center gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md lg:w-72 lg:max-w-none lg:flex-none lg:flex-col">
           <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">T-Shirt</p>
           <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none text-center">
-            <img src="/assets/image/gambar5.png" alt="T-Shirt" class="rounded-2xl">
+            <img src="assets/image/gambar5.png" alt="T-Shirt" class="rounded-2xl">
             <p class="text-lg font-semibold tracking-tight text-gray-900">Ukuran T-Shirt</p>
             <p class="mt-2 text-base/7 text-gray-600">Pilih ukuran sesuai dengan ukuran dada dan panjang badan Anda.</p>
           </div>
