@@ -2,8 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   build_site:
@@ -23,7 +22,7 @@ jobs:
 
       - name: Build
         env:
-         BASE_PATH: '/project-sveltekit'
+          BASE_PATH: '/project-sveltekit'
         run: npm run build
 
       - name: Upload artifact
@@ -39,7 +38,6 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
