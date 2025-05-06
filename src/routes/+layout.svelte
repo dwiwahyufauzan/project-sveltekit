@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	
 	
@@ -42,7 +41,7 @@
   
 	  <!-- Desktop Navigation -->
 	  <div class="hidden lg:flex items-center space-x-6 text-gray-900 dark:text-white text-lg font-medium">
-		<a href="{base}" class="hover:text-blue-500 transition">Home</a>
+		<a href="/" class="hover:text-blue-500 transition">Home</a>
   
 		<!-- Products Dropdown -->
 		<div class="relative group">
@@ -103,7 +102,7 @@
   <div class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-xs bg-white/80 dark:bg-gray-900/90 backdrop-blur-lg shadow-lg rounded-xl px-4 py-4 opacity-0 scale-95 -translate-y-4 peer-checked:opacity-100 peer-checked:scale-100 peer-checked:translate-y-0 transition-all duration-300 ease-out hidden peer-checked:flex flex-col space-y-3 lg:hidden">
 	<!-- Header -->
 	<div class="flex items-center justify-between">
-	  <a href="{base}">
+	  <a href="/">
 		<img src="assets/image/logo glint.png" alt="Logo" class="h-12 w-auto" />
 	  </a>
 	  <label for="menu-toggle" class="p-2 rounded-md text-gray-700 cursor-pointer">
