@@ -46,10 +46,10 @@
         <h1 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Produk Jaket Glam Stitch</h1>
         <p class="mt-8 text-lg font-medium text-gray-200 sm:text-xl">Temukan berbagai model jaket custom yang stylish, hangat, dan cocok untuk keperluan komunitas, kantor, hingga kebutuhan brand Anda.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="/jacket" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 transition-all transform hover:scale-105">
+            <a href="jacket" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 transition-all transform hover:scale-105">
               Pesan Sekarang
             </a>
-            <a href="/product" class="text-sm font-semibold text-white hover:text-indigo-400 dark:text-gray-300 dark:hover:text-indigo-400 transition-all transform hover:scale-105">
+            <a href="product" class="text-sm font-semibold text-white hover:text-indigo-400 dark:text-gray-300 dark:hover:text-indigo-400 transition-all transform hover:scale-105">
               Lihat Produk Lainnya <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -259,8 +259,8 @@
             <h3 class="text-lg font-semibold leading-6 text-white dark:text-gray-900">Navigasi</h3>
             <ul class="mt-6 space-y-4">
               <li><a href="/" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Home</a></li>
-              <li><a href="/product" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Products</a></li>
-              <li><a href="/services" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Services</a></li>
+              <li><a href="product" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Products</a></li>
+              <li><a href="services" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Services</a></li>
             </ul>
           </div>
           
@@ -278,10 +278,10 @@
           <div>
             <h3 class="text-lg font-semibold leading-6 text-white dark:text-gray-900">Discover Us</h3>
             <ul class="mt-6 space-y-4">
-              <li><a href="/about-us" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">About Us</a></li>
-              <li><a href="/blog" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Blog</a></li>
-              <li><a href="/contact-us" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Contact Us</a></li>
-              <li><a href="/store-location" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Store Location</a></li>
+              <li><a href="about-us" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">About Us</a></li>
+              <li><a href="blog" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Blog</a></li>
+              <li><a href="contact-us" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Contact Us</a></li>
+              <li><a href="store-location" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Store Location</a></li>
             </ul>
           </div>
         </div>
