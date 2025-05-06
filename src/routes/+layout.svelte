@@ -33,7 +33,7 @@
   {@render children()}
   
   <nav class="fixed top-4 inset-x-0 z-50">
-	<div class="mx-4 max-w-screen-xl px-6 py-2 bg-white/80 dark:bg-gray-900/90 backdrop-blur shadow-lg rounded-full flex items-center justify-between transition-all duration-300 ease-in-out">
+	<div class="mx-4 max-w-screen-xl px-6 py-2 bg-white/85 dark:bg-gray-900/85 backdrop-blur shadow-lg rounded-full flex items-center justify-between transition-all duration-300 ease-in-out">
 	  <!-- Logo -->
 	  <a href="/" class="flex items-center">
 		<img src="assets/image/logo glint.png" alt="Logo" class="h-14 w-14 object-contain transition-transform hover:scale-110">
@@ -128,7 +128,7 @@
 		  </svg>
 		</label>
 		<div class="overflow-hidden max-h-0 peer-checked:max-h-40 transition-all duration-300 ease-in-out">
-		  <ul class="py-1 text-lg font-semibold text-gray-800 dark:text-white">
+		  <ul class="py-1 text-lg font-semibold text-gray-700 dark:text-white">
 			<li><a href="tshirt" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">T-Shirt</a></li>
 			<li><a href="jacket" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Jacket</a></li>
 			<li><a href="shirts" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Shirt</a></li>
@@ -148,7 +148,7 @@
 		  </svg>
 		</label>
 		<div class="overflow-hidden max-h-0 peer-checked:max-h-60 transition-all duration-300 ease-in-out">
-		  <ul class="py-1 text-lg font-semibold text-gray-800 dark:text-white">
+		  <ul class="py-1 text-lg font-semibold text-gray-700 dark:text-white">
 			<li><a href="about-us" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">About Us</a></li>
 			<li><a href="blog" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Blog</a></li>
 			<li><a href="contact-us" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Contact Us</a></li>
