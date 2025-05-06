@@ -61,11 +61,11 @@
     
           <!-- CTA Buttons -->
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="/"
+            <a href="./"
               class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 transition-all transform hover:scale-105">
               Mulai Sekarang
             </a>
-            <a href="/" class="text-sm font-semibold text-white hover:text-indigo-400 transition-all transform hover:scale-105">Jelajahi Lebih Lanjut <span aria-hidden="true">→</span></a>
+            <a href="./" class="text-sm font-semibold text-white hover:text-indigo-400 transition-all transform hover:scale-105">Jelajahi Lebih Lanjut <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
           <p class="text-gray-600 dark:text-gray-300 mb-4">
             Tingkatkan identitas brand Anda dengan hasil bordir presisi, tahan lama, dan elegan untuk segala kebutuhan.
           </p>
-          <a href="/" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
+          <a href="./" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
             Pelajari Lebih Lanjut
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -123,7 +123,7 @@
           <p class="text-gray-600 dark:text-gray-300 mb-4">
             Layanan sablon dengan hasil warna tajam dan tahan lama, cocok untuk kaos komunitas, promosi, hingga distro.
           </p>
-          <a href="/" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
+          <a href="./" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
             Pelajari Lebih Lanjut
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -148,7 +148,7 @@
           <p class="text-gray-600 dark:text-gray-300 mb-4">
             Bebaskan kreativitasmu! Bekerja sama dengan tim desain kami untuk menciptakan pakaian yang unik.
           </p>
-          <a href="/" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
+          <a href="./" class="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-semibold hover:underline text-sm transition">
             Pelajari Lebih Lanjut
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -324,7 +324,7 @@
             <dd class="mt-3 text-lg text-gray-600 dark:text-gray-300">
               Setiap produk melalui tahapan quality control untuk memastikan kualitas maksimal sebelum dikirimkan kepada Anda.
               <p class="mt-4">
-                <a href="/" class="text-base font-semibold text-indigo-600 hover:underline">Selengkapnya <span aria-hidden="true">→</span></a>
+                <a href="./" class="text-base font-semibold text-indigo-600 hover:underline">Selengkapnya <span aria-hidden="true">→</span></a>
               </p>
             </dd>
           </div>
@@ -413,7 +413,7 @@
           <div class="flex space-x-6">
             
             <!-- Facebook -->
-            <a href="/" class="text-gray-500 hover:text-gray-400 transition duration-300">
+            <a href="./" class="text-gray-500 hover:text-gray-400 transition duration-300">
               <span class="sr-only">Facebook</span>
               <svg class="h-7 w-7 animate__animated animate__fadeIn animate__delay-2s" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22 12a10 10 0 10-11.6 9.87v-6.99H8.1v-2.88h2.3V9.41c0-2.28 1.35-3.55 3.42-3.55.99 0 2.03.18 2.03.18v2.24h-1.14c-1.12 0-1.47.7-1.47 1.42v1.71h2.5l-.4 2.88h-2.1v6.99A10 10 0 0022 12z"/>
@@ -421,7 +421,7 @@
             </a>
             
             <!-- Instagram -->
-            <a href="/" class="text-gray-500 hover:text-gray-400 transition duration-300">
+            <a href="./" class="text-gray-500 hover:text-gray-400 transition duration-300">
               <span class="sr-only">Instagram</span>
               <svg class="h-7 w-7 animate__animated animate__fadeIn animate__delay-2_5s" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-1a1 1 0 100 2 1 1 0 000-2z"/>
@@ -437,7 +437,7 @@
           <div>
             <h3 class="text-lg font-semibold leading-6 text-white dark:text-gray-900">Navigasi</h3>
             <ul class="mt-6 space-y-4">
-              <li><a href="/" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Home</a></li>
+              <li><a href="./" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Home</a></li>
               <li><a href="product" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Products</a></li>
               <li><a href="services" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Services</a></li>
             </ul>

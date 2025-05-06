@@ -35,13 +35,13 @@
   <nav class="fixed top-4 inset-x-0 z-50">
 	<div class="mx-4 max-w-screen-xl px-6 py-2 bg-white/85 dark:bg-gray-900/85 backdrop-blur shadow-lg rounded-full flex items-center justify-between transition-all duration-300 ease-in-out">
 	  <!-- Logo -->
-	  <a href="/" class="flex items-center">
+	  <a href="./" class="flex items-center">
 		<img src="assets/image/logo glint.png" alt="Logo" class="h-14 w-14 object-contain transition-transform hover:scale-110">
 	  </a>
   
 	  <!-- Desktop Navigation -->
 	  <div class="hidden lg:flex items-center space-x-6 text-gray-900 dark:text-white text-lg font-medium">
-		<a href="/" class="hover:text-blue-500 transition">Home</a>
+		<a href="./" class="hover:text-blue-500 transition">Home</a>
   
 		<!-- Products Dropdown -->
 		<div class="relative group">
@@ -51,7 +51,7 @@
 			  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
 		  </a>
-		  <div class="absolute left-0 mt-2 w-48 bg-white/80 dark:bg-gray-900/90 shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out">
+		  <div class="absolute left-0 mt-2 w-48 bg-white/90 dark:bg-gray-900/90 shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out">
 			<a href="tshirt" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">T-shirt</a>
 			<a href="jacket" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">Jacket</a>
 			<a href="shirts" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">Shirt</a>
@@ -68,7 +68,7 @@
 			  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
 		  </div>
-		  <div class="absolute left-0 mt-2 w-56 bg-white/80 dark:bg-gray-900/90 shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out">
+		  <div class="absolute left-0 mt-2 w-56 bg-white/90 dark:bg-gray-900/90 shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out">
 			<a href="about-us" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">About Us</a>
 			<a href="blog" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">Blog</a>
 			<a href="contact-us" class="block px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-400">Contact Us</a>
@@ -102,7 +102,7 @@
   <div class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-xs bg-white/80 dark:bg-gray-900/90 backdrop-blur-lg shadow-lg rounded-xl px-4 py-4 opacity-0 scale-95 -translate-y-4 peer-checked:opacity-100 peer-checked:scale-100 peer-checked:translate-y-0 transition-all duration-300 ease-out hidden peer-checked:flex flex-col space-y-3 lg:hidden">
 	<!-- Header -->
 	<div class="flex items-center justify-between">
-	  <a href="/">
+	  <a href="./">
 		<img src="assets/image/logo glint.png" alt="Logo" class="h-12 w-auto" />
 	  </a>
 	  <label for="menu-toggle" class="p-2 rounded-md text-gray-700 cursor-pointer">
@@ -114,7 +114,7 @@
   
 	<!-- Navigation -->
 	<nav class="flex flex-col items-start space-y-2 pt-2 text-lg">
-	  <a href="/" class="block w-full rounded-md px-4 py-2 font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition">Home</a>
+	  <a href="./" class="block w-full rounded-md px-4 py-2 font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition">Home</a>
   
 	  <!-- Products Dropdown -->
 	  <div class="w-full">

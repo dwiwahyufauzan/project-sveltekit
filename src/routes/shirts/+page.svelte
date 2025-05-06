@@ -42,7 +42,7 @@
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
           <div class="relative rounded-full px-3 py-1 text-sm text-gray-400 ring-1 ring-white/10 hover:ring-white/20 dark:ring-gray-600 dark:hover:ring-gray-500 transition">
             Temukan koleksi kemeja eksklusif Glam Stitch untuk tampilan profesional dan stylish.
-            <a href="/" class="font-semibold text-white hover:underline dark:text-gray-300 dark:hover:text-indigo-400">
+            <a href="./" class="font-semibold text-white hover:underline dark:text-gray-300 dark:hover:text-indigo-400">
               <span class="absolute inset-0" aria-hidden="true"></span>Beranda <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -79,7 +79,7 @@
         <p class="mx-auto mt-8 max-w-xl text-base text-gray-600 dark:text-gray-300">
           Sebagian besar produk kami dibuat dalam jumlah terbatas. Segera pesan Kemeja Glam Stitch berkualitas tinggi sebelum habis!
         </p>
-        <a href="/" class="mt-6 inline-block w-full rounded-md border border-transparent bg-gray-900 text-white px-8 py-3 font-medium hover:bg-gray-800 sm:w-auto focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-500">
+        <a href="./" class="mt-6 inline-block w-full rounded-md border border-transparent bg-gray-900 text-white px-8 py-3 font-medium hover:bg-gray-800 sm:w-auto focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-500">
           Dapatkan Akses ke Produk Kemeja Glam Stitch Kami
         </a>
       </div>
@@ -176,7 +176,7 @@
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700 dark:text-white">
-                    <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Flannel</a>
+                    <a href="./"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Flannel</a>
                   </h3>
                   <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Biru</p>
                 </div>
@@ -191,7 +191,7 @@
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700 dark:text-white">
-                    <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Lengan Panjang</a>
+                    <a href="./"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Lengan Panjang</a>
                   </h3>
                   <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Putih</p>
                 </div>
@@ -207,7 +207,7 @@
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700 dark:text-white">
-                    <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Lengan Pendek</a>
+                    <a href="./"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Lengan Pendek</a>
                   </h3>
                   <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Hitam</p>
                 </div>
@@ -223,7 +223,7 @@
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700 dark:text-white">
-                    <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Denim</a>
+                    <a href="./"><span aria-hidden="true" class="absolute inset-0"></span>Kemeja | Denim</a>
                   </h3>
                   <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Hitam</p>
                 </div>
@@ -250,7 +250,7 @@
           <div class="flex space-x-6">
             
             <!-- Facebook -->
-            <a href="/" class="text-gray-500 hover:text-gray-400 transition duration-300">
+            <a href="./" class="text-gray-500 hover:text-gray-400 transition duration-300">
               <span class="sr-only">Facebook</span>
               <svg class="h-7 w-7 animate__animated animate__fadeIn animate__delay-2s" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22 12a10 10 0 10-11.6 9.87v-6.99H8.1v-2.88h2.3V9.41c0-2.28 1.35-3.55 3.42-3.55.99 0 2.03.18 2.03.18v2.24h-1.14c-1.12 0-1.47.7-1.47 1.42v1.71h2.5l-.4 2.88h-2.1v6.99A10 10 0 0022 12z"/>
@@ -258,7 +258,7 @@
             </a>
             
             <!-- Instagram -->
-            <a href="/" class="text-gray-500 hover:text-gray-400 transition duration-300">
+            <a href="./" class="text-gray-500 hover:text-gray-400 transition duration-300">
               <span class="sr-only">Instagram</span>
               <svg class="h-7 w-7 animate__animated animate__fadeIn animate__delay-2_5s" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-1a1 1 0 100 2 1 1 0 000-2z"/>
@@ -274,7 +274,7 @@
           <div>
             <h3 class="text-lg font-semibold leading-6 text-white dark:text-gray-900">Navigasi</h3>
             <ul class="mt-6 space-y-4">
-              <li><a href="/" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Home</a></li>
+              <li><a href="./" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Home</a></li>
               <li><a href="product" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Products</a></li>
               <li><a href="services" class="text-base text-gray-300 dark:text-gray-600 hover:text-blue-400 transition duration-200">Services</a></li>
             </ul>
