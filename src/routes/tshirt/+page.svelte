@@ -1,6 +1,7 @@
 <script lang="ts">
     import '../../app.css';
     import { onMount } from 'svelte';
+    
   
     let isDark = false;
   
@@ -30,32 +31,41 @@
   
 <!-- Hero Section -->
 <div class="relative isolate overflow-hidden pt-6">
-    <img src="https://img.freepik.com/free-photo/fashionable-men-jacket-hanging-clothing-store-generated-by-ai_188544-40066.jpg?uid=R108872572&ga=GA1.1.1868222757.1738365469&semt=ais_hybrid&w=740" alt="Jaket Glam Stitch" class="absolute inset-0 -z-10 w-full h-full object-cover">
+    <!-- Background Image -->
+    <img src="https://img.freepik.com/free-photo/close-up-collection-black-white-color-monochrome-t-shirt-hanging-clothes-hanger_158595-6518.jpg?uid=R108872572&ga=GA1.1.1868222757.1738365469&semt=ais_hybrid&w=740" 
+      alt="Kaos polos" class="absolute inset-0 -z-10 w-full h-full object-cover">
+  
+    <!-- Dark Overlay -->
     <div class="absolute inset-0 -z-10 bg-black/50"></div>
   
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32 text-center">
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
           <div class="relative rounded-full px-3 py-1 text-sm text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-            Eksplor pilihan jaket custom berkualitas dari Glam Stitch.
+            Koleksi kaos polos berkualitas dari Glam Stitch untuk segala kebutuhan Anda.
             <a href="/" class="font-semibold text-white">
               <span class="absolute inset-0" aria-hidden="true"></span>Beranda <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>
-        <h1 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Produk Jaket Glam Stitch</h1>
-        <p class="mt-8 text-lg font-medium text-gray-200 sm:text-xl">Temukan berbagai model jaket custom yang stylish, hangat, dan cocok untuk keperluan komunitas, kantor, hingga kebutuhan brand Anda.</p>
+        <h1 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          Produk Kaos Polos Glam Stitch
+        </h1>
+        <p class="mt-8 text-lg font-medium text-gray-200 sm:text-xl">
+          Didesain untuk kenyamanan dan tampil stylish, kaos polos kami cocok untuk keperluan komunitas, bisnis, hingga kebutuhan sehari-hari.
+        </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="/jacket" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 transition-all transform hover:scale-105">
+            <a href="/contact" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 transition-all transform hover:scale-105">
               Pesan Sekarang
             </a>
-            <a href="/product" class="text-sm font-semibold text-white hover:text-indigo-400 dark:text-gray-300 dark:hover:text-indigo-400 transition-all transform hover:scale-105">
+            <a href="/product-list" class="text-sm font-semibold text-white hover:text-indigo-400 dark:text-gray-300 dark:hover:text-indigo-400 transition-all transform hover:scale-105">
               Lihat Produk Lainnya <span aria-hidden="true">→</span>
             </a>
           </div>
       </div>
     </div>
   </div>
+  
 
 <!--promo-->
 <div class="relative overflow-hidden bg-white dark:bg-gray-900 z-0">
@@ -63,54 +73,59 @@
     <section aria-labelledby="sale-heading" class="relative mx-auto flex max-w-7xl flex-col items-center px-4 pt-24 text-center sm:px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <h2 id="sale-heading" class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-5xl">
-          Dapatkan Kualitas Terbaik untuk Jacket Glam Stitch Anda
+          Dapatkan Kualitas Terbaik untuk Kaos Polos Glam Stitch Anda
         </h2>
         <p class="mx-auto mt-8 max-w-xl text-base text-gray-600 dark:text-gray-400">
-          Sebagian besar produk kami dibuat dalam jumlah terbatas. Segera pesan Jacket Glam Stitch berkualitas tinggi sebelum habis!
+          Sebagian besar produk kami dibuat dalam jumlah terbatas. Segera pesan Kaos Polos Glam Stitch berkualitas tinggi sebelum habis!
         </p>
         <a href="/#" class="mt-6 inline-block w-full rounded-md border border-transparent bg-gray-900 text-white px-8 py-3 font-medium hover:bg-gray-800 sm:w-auto focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-500">
-            Dapatkan Akses ke Produk Jacket Glam Stitch Kami
+          Dapatkan Akses ke Produk Kaos Polos Glam Stitch Kami
         </a>
       </div>
     </section>
   </div>
   
-  
-<!-- Products Section -->
+<!-- Products Sections -->
 <div class="bg-white dark:bg-gray-900">
     <main class="pt-10 sm:pt-8">
-      <!-- Breadcrumb Navigation -->
       <nav aria-label="Breadcrumb">
-        <ol role="list" class="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-16 lg:max-w-7xl lg:px-16"></ol>
+        <ol role="list" class="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-16 lg:max-w-7xl lg:px-16">
+        </ol>
       </nav>
   
       <!-- Galeri Gambar -->
       <div class="mx-auto mt-6 max-w-2xl px-4 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-16 space-y-4 lg:space-y-0">
+      
         <!-- Gambar kiri - hanya tampil di desktop -->
         <div class="hidden lg:block">
-          <img src="https://media.istockphoto.com/id/1383411717/id/foto/potret-pemuda-yang-ramah.jpg?s=612x612&w=0&k=20&c=v8oJf-Volmp1s_Rt6oSzZRsKIb5GznshSDSuAH4_Dmc=" alt="Beberapa kaos warna abu, putih, dan hitam yang diletakkan secara datar."
+          <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-secondary-product-shot.jpg"
+            alt="Beberapa kaos warna abu, putih, dan hitam yang diletakkan secara datar."
             class="aspect-[3/4] w-full max-w-sm mx-auto rounded-lg object-cover">
         </div>
   
         <!-- Gambar tengah (dua vertikal) - tampil di mobile -->
         <div class="grid grid-cols-1 gap-y-4">
-          <img src="https://media.istockphoto.com/id/1393264537/id/foto/model-mengenakan-hoodie-pria-kulit-hitam-maket-untuk-desain-anda-sendiri.jpg?s=612x612&w=0&k=20&c=8gN8pachrbhpSFlX5VQxUDKQsvaYNk9hb69vPwr577w=" alt="Model mengenakan kaos hitam polos."
+          <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg"
+            alt="Model mengenakan kaos hitam polos."
             class="aspect-[3/2] w-full max-w-sm mx-auto rounded-lg object-cover">
-          <img src="https://media.istockphoto.com/id/1438595781/id/foto/wanita-muda-berkacamata-dan-hoodie-hitam.jpg?s=612x612&w=0&k=20&c=yGm0UL4DqOxXym5Payfd1d4uSwigr-qgOCY3mHEMlrk=" alt="Model mengenakan kaos abu polos."
+          <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg"
+            alt="Model mengenakan kaos abu polos."
             class="aspect-[3/2] w-full max-w-sm mx-auto rounded-lg object-cover">
         </div>
   
         <!-- Gambar utama -->
         <div>
-          <img src="https://media.istockphoto.com/id/1366972069/id/foto/potret-pria-ceria-berkerudung-oranye.jpg?s=612x612&w=0&k=20&c=HjDQsGzANZ35dxYBk6VPK48ilGN4sXYPHA8Mwu0XRws=" alt="Model mengenakan kaos putih polos."
+          <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-featured-product-shot.jpg"
+            alt="Model mengenakan kaos putih polos."
             class="aspect-[4/5] w-full max-w-sm mx-auto rounded-lg object-cover lg:aspect-[3/4]">
         </div>
-      </div>
   
+      </div>
+      
       <!-- Info Produk -->
       <div class="mx-auto max-w-2xl px-4 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] lg:gap-x-8 lg:px-16 lg:pt-16">
         <div class="lg:col-span-2 lg:pr-8">
-          <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Jaket Glam Stitch</h1>
+          <h1 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Kaos Glam Stitch</h1>
         </div>
   
         <!-- Opsi -->
@@ -119,8 +134,8 @@
           <div>
             <h3 class="sr-only">Deskripsi</h3>
             <div class="space-y-6">
-              <p class="text-base text-gray-900 dark:text-gray-200">
-                Jaket Glam Stitch hadir dengan gaya simpel dan elegan dalam tiga pilihan warna menawan. Ingin tampil berani? Pilih warna "Abu Heather". Untuk kesan premium, warna "Hitam" adalah pilihan tepat. Butuh tampilan segar dan bersih? Warna "Putih" siap menyempurnakan gayamu.
+              <p class="text-base text-gray-900 dark:text-gray-300">
+                Kaos Glam Stitch hadir dengan gaya simpel dan elegan dalam tiga pilihan warna menawan. Ingin tampil berani? Pilih warna "Abu Heather". Untuk kesan premium, warna "Hitam" adalah pilihan tepat. Butuh tampilan segar dan bersih? Warna "Putih" siap menyempurnakan gayamu.
               </p>
             </div>
           </div>
@@ -129,11 +144,11 @@
           <div class="mt-10">
             <h3 class="text-sm font-medium text-gray-900 dark:text-white">Fitur Unggulan</h3>
             <div class="mt-4">
-              <ul role="list" class="list-disc space-y-2 pl-4 text-sm text-gray-600 dark:text-gray-400">
-                <li><span class="text-gray-900 dark:text-gray-200">Dijahit secara manual oleh tenaga lokal</span></li>
-                <li><span class="text-gray-900 dark:text-gray-200">Menggunakan pewarna eksklusif</span></li>
-                <li><span class="text-gray-900 dark:text-gray-200">Sudah dicuci dan disusutkan sebelumnya</span></li>
-                <li><span class="text-gray-900 dark:text-gray-200">100% katun super lembut</span></li>
+              <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
+                <li class="text-gray-400 dark:text-gray-500"><span class="text-gray-600 dark:text-gray-400">Dijahit secara manual oleh tenaga lokal</span></li>
+                <li class="text-gray-400 dark:text-gray-500"><span class="text-gray-600 dark:text-gray-400">Menggunakan pewarna eksklusif</span></li>
+                <li class="text-gray-400 dark:text-gray-500"><span class="text-gray-600 dark:text-gray-400">Sudah dicuci dan disusutkan sebelumnya</span></li>
+                <li class="text-gray-400 dark:text-gray-500"><span class="text-gray-600 dark:text-gray-400">100% katun super lembut</span></li>
               </ul>
             </div>
           </div>
@@ -145,81 +160,80 @@
               <p class="text-sm text-gray-600 dark:text-gray-400">
                 Temukan produk Glam Stitch berkualitas tinggi, dirancang untuk kenyamanan dan ketahanan maksimal. Daftar sekarang untuk mendapatkan informasi warna-warna terbaru, termasuk edisi terbatas "Abu Tua" yang segera hadir.
               </p>
-            </div>
+            </div>              
           </section>
         </div>
       </div>
+  
       <!-- Produk Terkait -->
-<section aria-labelledby="related-products-heading" class="bg-white dark:bg-gray-900">
-    <div class="mx-auto max-w-2xl px-16 py-24 sm:px-16 lg:max-w-7xl lg:px-16">
-      <h2 id="related-products-heading" class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Produk Terkait</h2>
-      <p class="mt-2 text-lg text-gray-400 dark:text-gray-200 text-center">Lihat produk Glam Stitch lainnya yang bisa kamu sukai. Tersedia berbagai pilihan stylish untuk setiap kesempatan.</p>
-      <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-        <!-- Produk 1 -->
-        <div class="group relative">
-          <img src="https://media.istockphoto.com/id/2085676478/id/foto/mockup-hoodie-putih-pada-pria-berjanggut-kaus-oversized-dengan-saku-untuk-desain-branding.jpg?s=612x612&w=0&k=20&c=7QKD-7q--IDD5CV0p5JDNuWy6f26zHLa0qCI3cF8wOc=" alt="Jaket Glim Stitch warna hitam."
-            class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-700 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
-          <div class="mt-4 flex justify-between">
-            <div>
-              <h3 class="text-sm text-gray-700 dark:text-white">
-                <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Jaket Glim Stitch</a>
-              </h3>
-              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Putih</p>
+      <section aria-labelledby="related-products-heading" class="bg-white dark:bg-gray-900">
+        <div class="mx-auto max-w-2xl px-16 py-24 sm:px-16 lg:max-w-7xl lg:px-16">
+          <h2 id="related-products-heading" class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Produk Terkait</h2>
+          <p class="mt-2 text-lg text-gray-400 dark:text-gray-400 text-center">Lihat produk Glam Stitch lainnya yang bisa kamu sukai. Tersedia berbagai pilihan stylish untuk setiap kesempatan.</p>
+          <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+  
+            <!-- Produk 1 -->
+            <div class="group relative">
+              <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Kaos Glam Stitch warna hitam." class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-800 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700 dark:text-gray-200">
+                    <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Kaos Glam Stitch</a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Hitam</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
+              </div>
             </div>
-            <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
+  
+            <!-- Produk 2 -->
+            <div class="group relative">
+              <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-02.jpg" alt="Kaos Glam Stitch warna putih." class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-800 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700 dark:text-gray-200">
+                    <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Kaos Glam Stitch</a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Putih Aspen</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
+              </div>
+            </div>
+  
+            <!-- Produk 3 -->
+            <div class="group relative">
+              <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-03.jpg" alt="Kaos Glam Stitch warna charcoal." class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-800 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700 dark:text-gray-200">
+                    <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Kaos Glam Stitch</a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Abu Tua</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
+              </div>
+            </div>
+  
+            <!-- Produk 4 -->
+            <div class="group relative">
+              <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/shopping-cart-page-01-product-01.jpg" alt="Kaos Glam Stitch warna sienna." class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-800 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700 dark:text-gray-200">
+                    <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Kaos Glam Stitch</a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Sienna</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
+              </div>
+            </div>
+  
           </div>
         </div>
-  
-        <!-- Produk 2 -->
-        <div class="group relative">
-          <img src="https://media.istockphoto.com/id/2147500282/id/foto/template-hoodie-hitam-besar-pada-seorang-pria-brutal-dengan-tangan-di-saku-pakaian-lebar-untuk.jpg?s=612x612&w=0&k=20&c=O5ypltazwnlEkG_6VFkZjUN77G5hTlSzdoW5tGCnbhk=" alt="Jaket Glim Stitch warna putih."
-            class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-700 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
-          <div class="mt-4 flex justify-between">
-            <div>
-              <h3 class="text-sm text-gray-700 dark:text-white">
-                <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Jaket Glim Stitch</a>
-              </h3>
-              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Hitam</p>
-            </div>
-            <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
-          </div>
-        </div>
-  
-        <!-- Produk 3 -->
-        <div class="group relative">
-          <img src="https://media.istockphoto.com/id/1314499049/id/foto/wanita-pirang-fasion-dalam-hoodie-besar-coklat-kacamata-dan-jeans-biru-mockup-untuk-logo-atau.jpg?s=612x612&w=0&k=20&c=CvvE5nL93XofC5kdnAQcVli9cB8nrOaDZvZ2vs7XhNs=" alt="Jaket Glim Stitch warna charcoal."
-            class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-700 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
-          <div class="mt-4 flex justify-between">
-            <div>
-              <h3 class="text-sm text-gray-700 dark:text-white">
-                <a href="/#"><span aria-hidden="true" class="absolute inset-0"></span>Jaket Glim Stitch</a>
-              </h3>
-              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Charcoal</p>
-            </div>
-            <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
-          </div>
-        </div>
-  
-        <!-- Produk 4 -->
-        <div class="group relative">
-          <img src="https://media.istockphoto.com/id/1652781007/id/foto/wanita-muda-tersenyum-dengan-hoodie-ungu-biru-di-mockup-ruang-copy-latar-belakang-merah-ramah.jpg?s=612x612&w=0&k=20&c=y-fN3CbRpMECwJ1epGMKPf7Ys8GAXWNoBF3xZBF-Vyo=" alt="Jaket Glim Stitch warna merah."
-            class="aspect-square w-full rounded-md bg-gray-200 dark:bg-gray-700 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
-          <div class="mt-4 flex justify-between">
-            <div>
-              <h3 class="text-sm text-gray-700 dark:text-white">
-                <a href="/"><span aria-hidden="true" class="absolute inset-0"></span>Jaket Glim Stitch</a>
-              </h3>
-              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Biru</p>
-            </div>
-            <p class="text-sm font-medium text-gray-900 dark:text-white">Rp 525.000</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+      </section>
     </main>
   </div>
+  
    
 
   <!-- Footer -->
